@@ -372,3 +372,9 @@ app's JSON control channel (`deckcraft --control PORT`).
 | 2026-10-10 | minor | Stage checked against the new core-workflow gate: passes, stays alpha |
 | 2026-10-10 | major | Restructured to craftrules `standards/progress-docs.md`: stage, two numbers, dimensions, features, languages; parity estimate moved to docs/target-app-parity.md, "Working today" to its evidence section, the alpha checklist to docs/roadmap.md |
 | 2026-10-07 | major | Alpha checklist (~80% to a self-defined alpha), breadth ~80%, overall ~62%, ~190 h to full parity |
+
+## Development tooling updates
+
+| Date | Change |
+| --- | --- |
+| 2026-10-15 | Added a local Visual Studio 2026 x64 solution with Cargo-backed Debug/Release builds, PDB/native debugger settings and documented build options. Application parity/readiness estimates are unchanged. See [setup](docs/visual-studio.md). |

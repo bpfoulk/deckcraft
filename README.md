@@ -332,3 +332,7 @@ Forks and modified versions must remove them.
   <a href="https://getartcraft.com/"><img alt="ArtCraft" src="docs/brand/artcraft-mark.svg" width="28"></a><br>
   <sub>Made by the <a href="https://getartcraft.com/">ArtCraft</a> team and community.</sub>
 </p>
+
+## Windows development with Visual Studio 2026
+
+Open [DeckCraft.slnx](DeckCraft.slnx), choose **Debug | x64** and press **F5**. The project builds the Rust desktop app with Cargo and launches the native debugger. See [Visual Studio setup](docs/visual-studio.md) for prerequisites, output paths and options.

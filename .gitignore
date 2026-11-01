@@ -12,3 +12,9 @@ packaging/env.sh
 /packaging/linux/flatpak/cargo-sources.json
 /build-flatpak/
 /.flatpak-builder/
+
+# Visual Studio local state
+/.vs/
+*.vcxproj.user
+*.VC.db
+*.VC.VC.opendb
